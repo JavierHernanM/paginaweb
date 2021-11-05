@@ -1,4 +1,4 @@
-colores{
+:root{
 --amarillo: #EAC926;
 --azul: #03264C;
 --celeste: #1259c3;
@@ -6,5 +6,31 @@ colores{
 --grisClaro: #ebebeb;
 --verde: #39b54a;
 }
-header{ 
-    background-color: var(--amarillo)}
+body
+header{
+    background-color:var(--amarillo);
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+}
+.barra{background-color:var(--grisClaro);
+    background-size:12px;}
+#precios{
+    font-size:18px;
+}
+#descuentos{
+    font-size:16px;
+}
+#descripciones{
+    font-size:16px;
+}
+.titulares {
+    font-size:16px;
+    color:var(--azul)}
+
+.background-menu{
+    background-position: right;
+}
+footer
+    p {color:var(--grisClaro);
+        font-size: 12px}
+

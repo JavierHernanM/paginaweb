@@ -7,11 +7,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 <body>
         <header>
+            
            <img width="325" src="../images/logo-mercado-liebre.svg" alt="logo de mercado liebre">
-            <div>lugar para una barra de busquedas </div>
-            <div>compra en cuotas y sin tarjeta de credito</div>
+            <li class=barra>Buscar productos, marcas</li><i class="fas fa-search"></i>
+            <div><i class="fas fa-hand-holding-usd"></i>compra en cuotas y sin tarjeta de credito</div>
               <nav>
                  <ul>
                     <li><a href="#">"Ofertas"</a></li>
@@ -19,16 +23,20 @@
                     <li><a href="#">"Vender"</a></li>
                     <li><a href="#">"Ayuda"</a></li>
                  <br>
-                    <li><a href="#">"Crea tu cuenta "</a></li>
-                    <li><a href="#">"Ingresa "</a></li>
-                    <li><a href="#">"Mis compras "</a></li>
+                    <li><a href="#">"Crea tu cuenta"</a><i class="far fa-address-card"></i></li>
+                    <li><a href="#">"Ingresa "</a><i class="fas fa-sign-in-alt"></i></li>
+                    <li><a href="#">"Mis compras "</a><i class="fas fa-shopping-basket"></i>
+                    </li>
                 </ul>
-             </nav>    
+             </nav>
+             <div class="burger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
         </header>
         
         <main>
             <section class="ultima visita">    
-            <h4>Basado en tu ultima visita</h4>
+            <h4 class="titulares">Basado en tu ultima visita</h4>
                 <img width="325" src="../images/img-cafetera-moulinex.jpg" alt="imagen cafetera">
                     <p id="precios">$6.670</p>
                     <p id="descuentos">40% OFF</p>
@@ -36,7 +44,7 @@
                 <br>
                 <img width="325" src="../images/img-macbook-pro-2019.jpg" alt="imagen net mac">
                     <p id="precios">$230000</p>
-                    <p>20% OFF</p>
+                    <p id="descuentos">20% OFF</p>
                     <p id="descripciones">Macbook Pro 2019</p>
                 <br>
                 <img width="325" src="../images/img-samsung-galaxy-s10.jpg" alt="imagen telefono samsung">
